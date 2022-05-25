@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="Quiz App.css">
+    <script src="Quiz App.js"></script>
+</head>
+<body>
+   
+    <form name="quiz" id="quiz">
+    <div class="container">
+        <h1>Quiz App</h1>
+        <div class="questions">
+        <label class="lbl" name="q1"> 1. What is jQuery?</label><br><br>
+        
+       <p><input type="radio"  name="q1"  value="A">Lightweight, "write less, do more" JavaScript library<br></p> 
+       <p><input type="radio"   name="q1"  value="B">A vector-graphic language<br> </p> 
+        <p><input type="radio"  name="q1"  value="C">A language specifically writen to access databases<br></p>
+       <br>
+       
+    </div>
+      
+    <div class="questions">
+            <label class="lbl" name="q2"> 2. In JavaScript, what is the difference between a global versus a local variable?</label><br><br>
+              
+        <p><input type="radio" name="q2"  value="A">A local variable is available to any code inside the script tags<br></p>
+        <p> <input type="radio" name="q2"  value="B">A local variable can only be used by the function that defines it<br> </p>
+       <p><input type="radio" name="q2"  value="C">A global variable is created inside a method or function<br></p> 
+    </div>
+   
+    <div class="questions">
+        <label class="lbl" name="q3"> 3. Which is the key to dynamic activity on a webpage?</label><br><br>
+        
+       <p><input type="radio" name="q3"  value="A">To store information in cookies<br></p> 
+        <p><input type="radio" name="q3"  value="B">To remember what needs to happen<br> </p>
+       <p><input type="radio" name="q3"  value="C">To have interactivity on the page<br><br>
+       </div></p> 
+
+       <div class="questions">
+        <label class="lbl" name="q4"> 4. What do third-part libraries, such as jQuery, have that people might want to use?</label><br><br>
+        
+       <p><input type="radio" name="q4"  value="A"> Irrelevant code   <br></p> 
+        <p><input type="radio" name="q4"  value="B"> FAQs sheets <br> </p>
+       <p><input type="radio" name="q4"  value="C"> Pre-built JavaScript code <br><br>
+       </div></p> 
+        
+
+       <div class="questions">
+        <label class="lbl" name="q5"> 5. Which is one of the most common events chosen for an alert?</label><br><br>
+        
+       <p><input type="radio" name="q5"  value="A"> Onclick   <br></p> 
+        <p><input type="radio" name="q5"  value="B"> Onchange <br> </p>
+       <p><input type="radio" name="q5"  value="C"> Onerror <br><br>
+       </div></p> 
+        
+
+
+        
+       <input type="button" class="btn" value="Submit" onclick="check()">
+       <p id="result"> </p>
+
+        
+         
+    </div>
+    
+       
+       
+    
+
+       
+  
+    
+</form>
+
+
+</body>
+</html>
